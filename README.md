@@ -25,16 +25,19 @@ workflows, so it gets them right the first time.
 2. Sign in with your onDimi wedding account, or create one in the same window.
    onDimi is free for up to 100 guest parties, AI concierge included, and
    creating an account doesn't contact any guests.
-3. Ask Claude "What can onDimi do for our wedding?"
+3. Ask Claude "Let's set up our wedding." Claude fills in your wedding and
+   account details and the information guests will ask about (venue, times,
+   hotels, FAQ). These are needed before onDimi contacts any guest; you can
+   also fill them in on your onDimi dashboard.
 
 ## What's included
 
 - **Connector:** `https://api.ondimi.com/couples/mcp`, the onDimi wedding
   tools (guest list, RSVPs, plans, updates, wedding details and knowledge).
-- **Skills:** getting started, importing a guest list, the RSVP campaign,
+- **Skills:** getting started (wedding setup first), importing a guest list, the RSVP campaign,
   sending a guest update, the daily status check, keeping the concierge's
   knowledge current, and looking up guests with exact counts.
-- **Commands:** `/ondimi-weddings:status`, `/ondimi-weddings:rsvps`,
+- **Commands:** `/ondimi-weddings:setup`, `/ondimi-weddings:status`, `/ondimi-weddings:rsvps`,
   `/ondimi-weddings:send-update`.
 
 ## Data and privacy

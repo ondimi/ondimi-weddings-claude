@@ -8,6 +8,13 @@ description: Send one announcement to many wedding guests through onDimi. Use wh
 An update carries one reason to many guests. It is not for collecting RSVPs
 or addresses; those go through the `rsvp-campaign` skill.
 
+## Before you start
+
+Updates go out only once the wedding's account details and wedding details are
+complete. If a step is refused with `setup_incomplete` or
+`outcome_setup_incomplete`, finish setup with the `getting-started` skill
+first; the error lists exactly what is missing.
+
 ## Steps
 
 1. **Write the note with the couple.** One reason per update. Use their facts

@@ -1,7 +1,7 @@
 {
   "name": "ondimi-weddings",
   "displayName": "onDimi Weddings",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Run your wedding's guest communication from Claude: import your guest list, collect RSVPs and mailing addresses, answer guest questions, and send updates you approve, through onDimi's AI guest concierge.",
   "author": {
     "name": "onDimi",

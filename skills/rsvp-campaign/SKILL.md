@@ -10,6 +10,14 @@ scheduled sequences of texts, emails and calls with automatic follow-ups. An
 instant update is not a substitute: it doesn't collect answers or stop when a
 guest replies.
 
+## Before you start
+
+onDimi contacts no guest until the wedding's account details and wedding
+details are complete, and the concierge answers guests only from the wedding's
+knowledge. If either looks unfinished (`wedding_details`, `knowledge_list`), or
+a step below is refused with `outcome_setup_incomplete`, complete setup first
+with the `getting-started` skill (steps 1 and 2), then come back.
+
 ## Steps
 
 1. **Find the plan.** `plan_available` lists the wedding's plans with their
