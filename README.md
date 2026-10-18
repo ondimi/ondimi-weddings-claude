@@ -23,7 +23,8 @@ workflows, so it gets them right the first time.
 
 1. Add the plugin, then connect **onDimi** from the plugin's Connectors tab.
 2. Sign in with your onDimi wedding account, or create one in the same window.
-   Creating an account is free and doesn't contact any guests.
+   onDimi is free for up to 100 guest parties, AI concierge included, and
+   creating an account doesn't contact any guests.
 3. Ask Claude "What can onDimi do for our wedding?"
 
 ## What's included
