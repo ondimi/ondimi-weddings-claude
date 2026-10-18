@@ -1,0 +1,15 @@
+{
+  "name": "ondimi-weddings",
+  "displayName": "onDimi Weddings",
+  "version": "1.0.0",
+  "description": "Run your wedding's guest communication from Claude: import your guest list, collect RSVPs and mailing addresses, answer guest questions, and send updates you approve, through onDimi's AI guest concierge.",
+  "author": {
+    "name": "onDimi",
+    "email": "weddings@ondimi.com",
+    "url": "https://weddings.ondimi.com"
+  },
+  "homepage": "https://weddings.ondimi.com/connect-your-ai/",
+  "repository": "https://github.com/ondimi/ondimi-weddings-claude",
+  "license": "MIT",
+  "keywords": ["wedding", "rsvp", "guest list", "wedding planning", "invitations", "event"]
+}
