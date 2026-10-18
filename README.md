@@ -54,4 +54,4 @@ password also disconnects every assistant. onDimi's
 ## Support
 
 Email [weddings@ondimi.com](mailto:weddings@ondimi.com) or visit
-[weddings.ondimi.com/support](https://weddings.ondimi.com/support).
+[weddings.ondimi.com/contact](https://weddings.ondimi.com/contact).
