@@ -82,6 +82,9 @@ Keep it short and concrete:
   couple approves the wording and the audience.
 - Report exact numbers any time: who's coming, who declined, who hasn't
   answered.
+- Keep the vendors' contacts (caterer, venue, DJ, florist, transportation)
+  and prepare what to send them, like the dietary list for the caterer (the
+  `vendor-contacts` skill).
 
 ## Rules that always apply
 
