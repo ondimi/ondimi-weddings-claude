@@ -3,7 +3,10 @@
 Run your wedding's guest communication by talking to Claude. onDimi is an AI
 guest concierge: it texts, emails, calls and chats with each guest party to
 collect RSVPs, mailing addresses, dietary needs and song requests, answers
-guest questions about the wedding, and sends the updates you approve. This
+guest questions about the wedding, and sends the updates you approve. Every
+call it places or answers opens by saying who is speaking: "it's onDimi, the
+AI guest concierge of <the couple>". Guests are only the couple's own invited
+guests, in the US, and each channel follows the guest's recorded consent. This
 plugin connects Claude to your onDimi wedding and teaches Claude the onDimi
 workflows, so it gets them right the first time.
 

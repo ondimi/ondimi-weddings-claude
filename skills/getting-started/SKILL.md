@@ -8,7 +8,8 @@ description: First steps with onDimi, including the wedding setup that must be d
 onDimi runs an AI guest concierge for one wedding. It texts, emails, calls and
 chats with each guest party to collect RSVPs, mailing addresses and other
 details, answers guest questions from the wedding's information, and sends the
-updates the couple approves. You help the couple steer it.
+updates the couple approves. Every call opens by announcing the caller: "it's
+onDimi, the AI guest concierge of <the couple>". You help the couple steer it.
 
 **Setup comes first.** onDimi refuses to contact any guest (plans and updates
 alike) until the wedding's account details and wedding details are complete.

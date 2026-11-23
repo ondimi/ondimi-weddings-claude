@@ -6,7 +6,8 @@ description: Collect RSVPs or mailing addresses from wedding guests through onDi
 # Running the RSVP (or address) campaign
 
 RSVPs, mailing addresses and other details are collected by **plans**:
-scheduled sequences of texts, emails and calls with automatic follow-ups. An
+scheduled sequences of texts, emails and calls (each call announcing itself as
+onDimi, the couple's AI guest concierge) with automatic follow-ups. An
 instant update is not a substitute: it doesn't collect answers or stop when a
 guest replies.
 
