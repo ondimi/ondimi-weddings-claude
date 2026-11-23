@@ -18,6 +18,9 @@ workflows, so it gets them right the first time.
   update, shows you a sample, and sends it only after you approve.
 - "Add the shuttle schedule so guests can ask about it" — the concierge
   answers guests from that information from then on.
+- "List the dietary needs and draft an email to our caterer" — Claude pulls
+  the needs from your guest list and the caterer's contact from your saved
+  vendors, and drafts the email for you to send.
 
 ## Getting started
 
@@ -33,10 +36,10 @@ workflows, so it gets them right the first time.
 ## What's included
 
 - **Connector:** `https://api.ondimi.com/couples/mcp`, the onDimi wedding
-  tools (guest list, RSVPs, plans, updates, wedding details and knowledge).
+  tools (guest list, RSVPs, plans, updates, wedding details, knowledge and vendors).
 - **Skills:** getting started (wedding setup first), importing a guest list, the RSVP campaign,
   sending a guest update, the daily status check, keeping the concierge's
-  knowledge current, and looking up guests with exact counts.
+  knowledge current, looking up guests with exact counts, and vendor contacts.
 - **Commands:** `/ondimi-weddings:setup`, `/ondimi-weddings:status`, `/ondimi-weddings:rsvps`,
   `/ondimi-weddings:send-update`.
 
