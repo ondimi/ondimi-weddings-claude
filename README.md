@@ -16,7 +16,7 @@ workflows, so it gets them right the first time.
   it, shows you what was added, and offers to start collecting RSVPs.
 - "How are RSVPs looking?" or "Who declined?" — exact counts and names.
 - "Who still needs to send their address?" — and a reminder through the
-  address campaign, once you agree.
+  address plan, once you agree.
 - "Tell everyone attending the ceremony moved to 4:30" — Claude drafts the
   update, shows you a sample, and sends it only after you approve.
 - "Add the shuttle schedule so guests can ask about it" — the concierge
@@ -29,8 +29,7 @@ workflows, so it gets them right the first time.
 
 1. Add the plugin, then connect **onDimi** from the plugin's Connectors tab.
 2. Sign in with your onDimi wedding account, or create one in the same window.
-   onDimi is free for up to 100 guest parties, AI concierge included, and
-   creating an account doesn't contact any guests.
+   Creating an account doesn't contact any guests.
 3. Ask Claude "Let's set up our wedding." Claude fills in your wedding and
    account details and the information guests will ask about (venue, times,
    hotels, FAQ). These are needed before onDimi contacts any guest; you can
@@ -40,7 +39,7 @@ workflows, so it gets them right the first time.
 
 - **Connector:** `https://api.ondimi.com/couples/mcp`, the onDimi wedding
   tools (guest list, RSVPs, plans, updates, wedding details, knowledge and vendors).
-- **Skills:** getting started (wedding setup first), importing a guest list, the RSVP campaign,
+- **Skills:** getting started (wedding setup first), importing a guest list, RSVP and address follow-up,
   sending a guest update, the daily status check, keeping the concierge's
   knowledge current, looking up guests with exact counts, and vendor contacts.
 - **Commands:** `/ondimi-weddings:setup`, `/ondimi-weddings:status`, `/ondimi-weddings:rsvps`,
