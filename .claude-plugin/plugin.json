@@ -1,8 +1,8 @@
 {
   "name": "ondimi-weddings",
   "displayName": "onDimi Weddings",
-  "version": "1.1.0",
-  "description": "Manage your wedding guest list from Claude and keep your guests informed. onDimi works only with the guests you added to your own wedding: it collects their RSVPs and mailing addresses, answers their questions, and sends the updates you approve. Each guest is reached only on the channels they consented to (text, email or phone call), and a call opens by saying it is onDimi, the couple's AI guest concierge. Nothing reaches a guest until you approve it.",
+  "version": "1.1.1",
+  "description": "Manage your wedding guest list from Claude and keep your guests informed. onDimi works only with the guests you added to your own wedding: it collects their RSVPs and mailing addresses, answers their questions, and sends the updates you approve. Each guest is contacted only on the channels switched on for them (text, email or phone call), a guest's STOP turns all of them off, and every call opens by saying it is onDimi, the couple's AI guest concierge. Nothing reaches a guest until you approve it.",
   "author": {
     "name": "onDimi",
     "email": "support@ondimi.com",

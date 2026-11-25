@@ -7,11 +7,14 @@ nothing else.
 ## Who onDimi contacts, and how
 
 - **Only your guests.** onDimi contacts only the guests you added to your
-  wedding's guest list. No tool takes a phone number or an email address to
-  contact, so nobody outside your guest list can be reached.
-- **Only with consent.** Each guest is reached only on the channels that
-  guest consented to: text, email or phone call. A guest can opt out at any
-  time (reply STOP) and onDimi stops.
+  wedding's guest list. The tools that send take guests from that list, never
+  a phone number or an email address, so nobody outside your guest list can be
+  reached.
+- **Only with consent.** When you sign up, you confirm that your guests agreed
+  to receive wedding texts and phone calls from onDimi on your behalf. Each
+  guest has a separate switch for texts, emails and phone calls; onDimi uses
+  only the ones that are on, and you can turn any of them off. A guest who
+  replies STOP is not contacted again on any channel.
 - **Only what you approve.** You choose the guests and approve the wording
   before anything goes out.
 - **Why guests hear from onDimi:** to give their RSVP, to give their mailing
@@ -19,11 +22,12 @@ nothing else.
   update from you (a new ceremony time, the shuttle schedule).
 - **Reminders, one guest at a time.** When you ask a guest for an RSVP or an
   address, onDimi follows your wedding's reminder plan for that guest: a few
-  reminders at set times by text, email or, if the guest consented to calls,
-  a phone call. The reminders stop as soon as that guest answers.
-- **Calls say who is calling.** Every call opens with "it's onDimi, the AI
-  guest concierge of <the couple>".
-- **US guests only.**
+  reminders at set times, during the day in the guest's time zone, by text,
+  email or, if calls are on for that guest, a phone call. The reminders stop
+  as soon as that guest's RSVP or address is in.
+- **Calls say who is calling.** Every call, including a voicemail, opens with
+  "it's onDimi, the AI guest concierge of <the couple>".
+- **Built for US weddings.**
 
 ## What you can ask
 

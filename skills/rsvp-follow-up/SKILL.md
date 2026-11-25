@@ -9,12 +9,13 @@ RSVPs, mailing addresses and other details are collected by **plans**. A plan
 is a reminder plan the wedding already has for one purpose (RSVP, mailing
 address). The couple starts it for guest parties they choose from their own
 guest list. For each of those parties the plan sends a few reminders at set
-times, one step at a time: a text, an email or, if that guest consented to
-calls, a phone call that opens by announcing onDimi as the couple's AI guest
-concierge. It stops for a party as soon as that party answers or opts out.
+times, one step at a time: a text, an email or, if calls are on for that
+guest, a phone call (or voicemail) that opens by announcing onDimi as the
+couple's AI guest concierge. It stops for a party as soon as the plan's
+answer (the RSVP or the address) is in, or when the guest replies STOP.
 
 A plan reaches only guests registered in the couple's wedding, and only on
-the channels each guest consented to. An update is not a substitute: it
+the channels switched on for each guest. An update is not a substitute: it
 doesn't collect answers.
 
 ## Before you start
@@ -36,7 +37,7 @@ with the `getting-started` skill (steps 1 and 2), then come back.
    when the list is long.
 3. **Show the couple and get a clear yes.** Say which parties will be
    contacted, on which channels, starting when (messages go out in each
-   guest's local time, 9am–9pm). Name the parties, or a few of them when
+   guest's local time, by default 8am–9pm). Name the parties, or a few of them when
    there are many. If they want to leave anyone out, leave them out.
 4. **Start the plan for those parties.** `plan_enroll_guests` with `business_id`, `plan_id`,
    `journey_id` and `guests=[{customer_id, review_fingerprint}]` for the

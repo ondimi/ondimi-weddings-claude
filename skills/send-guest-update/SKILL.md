@@ -6,7 +6,7 @@ description: Send the couple's wedding guests an update the couple approves, thr
 # Sending a guest update
 
 An update is one note from the couple, by text message, to guests on their
-own guest list who consented to texts. It is not for collecting RSVPs or
+own guest list whose texts are on. It is not for collecting RSVPs or
 addresses; those go through the `rsvp-follow-up` skill.
 
 ## Before you start
