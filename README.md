@@ -1,22 +1,37 @@
 # onDimi Weddings for Claude
 
-Run your wedding's guest communication by talking to Claude. onDimi is an AI
-guest concierge: it texts, emails, calls and chats with each guest party to
-collect RSVPs, mailing addresses, dietary needs and song requests, answers
-guest questions about the wedding, and sends the updates you approve. Every
-call it places or answers opens by saying who is speaking: "it's onDimi, the
-AI guest concierge of <the couple>". Guests are only the couple's own invited
-guests, in the US, and each channel follows the guest's recorded consent. This
-plugin connects Claude to your onDimi wedding and teaches Claude the onDimi
-workflows, so it gets them right the first time.
+Manage your wedding guest list by talking to Claude, and keep your guests
+informed. You sign in to your own onDimi wedding; Claude sees that wedding and
+nothing else.
+
+## Who onDimi contacts, and how
+
+- **Only your guests.** onDimi contacts only the guests you added to your
+  wedding's guest list. No tool takes a phone number or an email address to
+  contact, so nobody outside your guest list can be reached.
+- **Only with consent.** Each guest is reached only on the channels that
+  guest consented to: text, email or phone call. A guest can opt out at any
+  time (reply STOP) and onDimi stops.
+- **Only what you approve.** You choose the guests and approve the wording
+  before anything goes out.
+- **Why guests hear from onDimi:** to give their RSVP, to give their mailing
+  address, to get an answer to a question about the wedding, or to receive an
+  update from you (a new ceremony time, the shuttle schedule).
+- **Reminders, one guest at a time.** When you ask a guest for an RSVP or an
+  address, onDimi follows your wedding's reminder plan for that guest: a few
+  reminders at set times by text, email or, if the guest consented to calls,
+  a phone call. The reminders stop as soon as that guest answers.
+- **Calls say who is calling.** Every call opens with "it's onDimi, the AI
+  guest concierge of <the couple>".
+- **US guests only.**
 
 ## What you can ask
 
 - "Here's our guest list" (paste a spreadsheet or an export) — Claude imports
   it, shows you what was added, and offers to start collecting RSVPs.
 - "How are RSVPs looking?" or "Who declined?" — exact counts and names.
-- "Who still needs to send their address?" — and a reminder through the
-  address plan, once you agree.
+- "Who still needs to send their address?" — and, once you agree, a
+  reminder to those guests.
 - "Tell everyone attending the ceremony moved to 4:30" — Claude drafts the
   update, shows you a sample, and sends it only after you approve.
 - "Add the shuttle schedule so guests can ask about it" — the concierge
@@ -38,9 +53,10 @@ workflows, so it gets them right the first time.
 ## What's included
 
 - **Connector:** `https://api.ondimi.com/couples/mcp`, the onDimi wedding
-  tools (guest list, RSVPs, plans, updates, wedding details, knowledge and vendors).
-- **Skills:** getting started (wedding setup first), importing a guest list, RSVP and address follow-up,
-  sending a guest update, the daily status check, keeping the concierge's
+  tools (guest list, RSVPs, reminder plans, updates, wedding details,
+  knowledge and vendors).
+- **Skills:** getting started (wedding setup first), importing a guest list,
+  RSVP and address follow-up, sending a guest update, the daily status check, keeping the concierge's
   knowledge current, looking up guests with exact counts, and vendor contacts.
 - **Commands:** `/ondimi-weddings:setup`, `/ondimi-weddings:status`, `/ondimi-weddings:rsvps`,
   `/ondimi-weddings:send-update`.
@@ -52,7 +68,8 @@ instructions plus a connector entry. When you use the connector, Claude sends
 your requests to onDimi at `api.ondimi.com` over HTTPS, signed in as you, and
 onDimi returns your own wedding's data: guest names, contact details,
 addresses, RSVP answers, guest notes and message history. A connection can
-see only your wedding. Messages reach guests only after you approve them.
+see only your wedding. Messages reach only your own guests, and only after
+you approve them.
 
 Disconnect any time from Claude's connector settings; changing your onDimi
 password also disconnects every assistant. onDimi's
@@ -61,5 +78,5 @@ password also disconnects every assistant. onDimi's
 
 ## Support
 
-Email [weddings@ondimi.com](mailto:weddings@ondimi.com) or visit
+Email [support@ondimi.com](mailto:support@ondimi.com) or visit
 [weddings.ondimi.com/contact](https://weddings.ondimi.com/contact).
